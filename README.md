@@ -1,5 +1,4 @@
-````markdown
-# Time Series Forecasting on Energy Consumption
+Time Series Forecasting on Energy Consumption
 
 This project involves time series forecasting on the "Hourly Energy Consumption" dataset. The goal is to predict energy consumption (MW) using historical data and XGBoost model. The dataset used for this project is the PJME hourly energy consumption data.
 
@@ -45,9 +44,8 @@ After downloading, the dataset is loaded into a pandas DataFrame for analysis an
 ## Steps to Run the Code
 
 1. Clone this repository and install necessary dependencies:
-   ```bash
+   bash
    pip install -r requirements.txt
-````
 
 2. Run the Jupyter notebook or Python script to load the dataset, perform feature engineering, train the model, and evaluate the predictions.
 
@@ -86,5 +84,3 @@ After testing the model, the RMSE score is calculated for the test set, giving a
 
 * [Kaggle: Hourly Energy Consumption Dataset](https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption)
 * [Time Series Forecasting in Machine Learning (Reference)](https://engineering.99x.io/time-series-forecasting-in-machine-learning-3972f7a7a467)
-
-```
